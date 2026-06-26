@@ -1,0 +1,1 @@
+{"index": 160, "id": "mcq_000161", "status": "ok", "changed": true, "oldCorrectOptionId": "A", "newCorrectOptionId": "A", "reviewNote": "Sửa distractor B từ giá trị máy tính thô '1,3639999999999999' thành '0,363' (lỗi làm tròn/tháp phân thường gặp). Sửa distractor C từ '-0,636' thành '2,747' (giá trị cot(20°), nhầm lẫn giữa tan và cot). Giữ nguyên A (đúng) và D (lỗi dấu)."}

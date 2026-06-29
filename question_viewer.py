@@ -206,7 +206,7 @@ HTML = r"""<!doctype html>
       gap: 10px;
     }
 
-    .meta div {
+    .meta > div {
       border-top: 1px solid var(--line);
       padding-top: 8px;
       min-width: 0;
@@ -224,6 +224,26 @@ HTML = r"""<!doctype html>
       margin: 0;
       font-size: 13px;
       overflow-wrap: anywhere;
+    }
+
+    .concepts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .concept {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 3px 8px;
+      border: 1px solid #c8d7df;
+      border-radius: 999px;
+      background: #f2f8fa;
+      color: #164e63;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.2;
     }
 
     .band {
@@ -456,6 +476,37 @@ HTML = r"""<!doctype html>
       return textFromBlocks(option.content).replace(/\n+/g, ' ');
     }
 
+    function scoreValue(metadata) {
+      if (!metadata) return undefined;
+      return metadata.difficultyScore ?? metadata.difficulty_score ?? metadata.score;
+    }
+
+    function scoreText(metadata) {
+      const score = scoreValue(metadata);
+      if (score === null || score === undefined || score === '') return '(trống)';
+      const numeric = Number(score);
+      return Number.isFinite(numeric) ? numeric.toFixed(2) : String(score);
+    }
+
+    function appendMetaValue(wrap, label, value) {
+      wrap.appendChild(make('dt', null, label));
+      wrap.appendChild(make('dd', null, value ?? '(trống)'));
+    }
+
+    function appendConcepts(wrap, concepts) {
+      wrap.appendChild(make('dt', null, 'Concepts'));
+      const dd = make('dd');
+      const list = make('div', 'concepts');
+      const values = asArray(concepts).filter(concept => typeof concept === 'string' && concept.trim());
+      if (!values.length) {
+        dd.textContent = '(trống)';
+      } else {
+        values.forEach(concept => list.appendChild(make('span', 'concept', concept.trim())));
+        dd.appendChild(list);
+      }
+      wrap.appendChild(dd);
+    }
+
     function renderMeta(q, index) {
       const hero = make('section', 'hero');
       const titleLine = make('div', 'title-line');
@@ -470,15 +521,19 @@ HTML = r"""<!doctype html>
         ['Type', q.type],
         ['Chapter', q.metadata?.chapterName],
         ['Difficulty', q.metadata?.difficulty],
+        ['Score', scoreText(q.metadata)],
         ['Bloom', q.metadata?.bloom],
         ['Source set', q.source ? `${q.source.questionSetIndex} / ${q.source.questionSetId}` : '(trống)'],
         ['Source item', q.source ? `${q.source.questionItemIndex} / ${q.source.questionItemId}` : '(trống)'],
         ['Options', asArray(q.options).length]
       ].forEach(([label, value]) => {
         const wrap = document.createElement('div');
-        wrap.append(make('dt', null, label), make('dd', null, value ?? '(trống)'));
+        appendMetaValue(wrap, label, value);
         meta.appendChild(wrap);
       });
+      const conceptsWrap = document.createElement('div');
+      appendConcepts(conceptsWrap, q.metadata?.concepts);
+      meta.appendChild(conceptsWrap);
       hero.appendChild(meta);
       return hero;
     }

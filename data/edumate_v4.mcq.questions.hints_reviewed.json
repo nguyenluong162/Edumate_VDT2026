@@ -24,8 +24,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "biểu diễn một ẩn theo ẩn kia",
+          "tìm nghiệm của phương trình bậc nhất hai ẩn",
+          "thay giá trị vào biểu thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -160,8 +165,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Phương trình bậc nhất hai ẩn",
+          "Biểu diễn nghiệm theo một ẩn",
+          "Tìm nghiệm cụ thể"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -306,8 +316,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "phương trình bậc nhất hai ẩn",
+          "biểu diễn một ẩn theo ẩn kia",
+          "quy tắc chuyển vế"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -452,8 +467,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Phương trình bậc nhất hai ẩn",
+          "Số nghiệm của phương trình bậc nhất hai ẩn",
+          "Biểu diễn nghiệm theo một ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -588,8 +608,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "nghiệm của phương trình hai ẩn",
+          "tìm tham số $m$ để cặp số là nghiệm",
+          "giải phương trình bậc nhất một ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -734,8 +759,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tìm tham số từ nghiệm cho trước",
+          "viết nghiệm tổng quát phương trình bậc nhất hai ẩn",
+          "trường hợp hệ số của ẩn bằng 0"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -880,8 +910,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "lập phương trình bậc nhất hai ẩn",
+          "chuyển bài toán thực tế thành phương trình",
+          "biểu diễn đại lượng"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -1026,8 +1061,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Phương trình bậc nhất hai ẩn",
+          "Nghiệm của phương trình",
+          "Kiểm tra nghiệm của phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -1172,8 +1212,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "phương trình bậc nhất hai ẩn",
+          "tìm nghiệm nguyên không âm",
+          "phương pháp thử giá trị"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -1323,8 +1368,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "phương trình bậc nhất hai ẩn",
+          "tìm nghiệm nguyên không âm",
+          "giải bài toán bằng cách lập phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.42
       },
       "instruction": [
         {
@@ -1474,8 +1524,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "giao điểm của hai đường thẳng",
+          "hệ phương trình bậc nhất hai ẩn",
+          "tọa độ giao điểm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -1635,8 +1690,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "nghiệm của phương trình bậc nhất hai ẩn",
+          "tìm tham số của phương trình",
+          "giải phương trình bậc nhất một ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -1776,8 +1836,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "nghiệm chung của hệ phương trình",
+          "thay giá trị nghiệm vào phương trình",
+          "giải phương trình bậc nhất một ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -1917,8 +1982,13 @@
         "lessonName": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hệ phương trình bậc nhất hai ẩn",
+          "Nghiệm của hệ phương trình",
+          "Đồ thị hàm số bậc nhất"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -2053,8 +2123,12 @@
         "lessonName": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hệ phương trình bậc nhất hai ẩn",
+          "phương pháp thế"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -2204,8 +2278,13 @@
         "lessonName": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hệ phương trình bậc nhất hai ẩn",
+          "Phương pháp cộng đại số",
+          "Hệ phương trình vô nghiệm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -2350,8 +2429,13 @@
         "lessonName": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hệ phương trình bậc nhất hai ẩn",
+          "phương pháp cộng đại số",
+          "hệ phương trình vô nghiệm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -2516,8 +2600,13 @@
         "lessonName": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hệ phương trình bậc nhất hai ẩn",
+          "biến đổi hệ phương trình về dạng ax + by = c",
+          "xét tính vô nghiệm của hệ phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -2682,8 +2771,13 @@
         "lessonName": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Phương trình đường thẳng",
+          "Hệ số góc",
+          "Tọa độ điểm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -2838,8 +2932,13 @@
         "lessonName": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hàm số bậc nhất",
+          "tọa độ điểm thuộc đồ thị",
+          "giải hệ phương trình bậc nhất hai ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -2994,8 +3093,12 @@
         "lessonName": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hệ phương trình bậc nhất hai ẩn",
+          "Phương pháp cộng đại số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.4
       },
       "instruction": [
         {
@@ -3145,8 +3248,13 @@
         "lessonName": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hệ phương trình bậc nhất hai ẩn",
+          "Phương pháp thế",
+          "Ứng dụng thực tế"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -3306,8 +3414,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "lập phương trình bậc nhất một ẩn",
+          "giải phương trình bậc nhất một ẩn",
+          "kiểm tra điều kiện thực tế"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -3442,8 +3555,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải bài toán bằng cách lập hệ phương trình",
+          "Tìm hai số khi biết tổng và quan hệ",
+          "Thiết lập hệ phương trình từ dữ kiện bài toán"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -3588,8 +3706,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "chuyển đổi đơn vị thời gian",
+          "tính vận tốc xuôi dòng và ngược dòng",
+          "tính vận tốc thực của ca nô"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -3749,8 +3872,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "chuyển đổi đơn vị thời gian",
+          "công thức tính vận tốc",
+          "vận tốc xuôi dòng và ngược dòng"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -3900,8 +4028,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bài toán hỗn hợp dung dịch",
+          "lập phương trình bậc nhất một ẩn",
+          "giải phương trình bậc nhất"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -4061,8 +4194,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bài toán hỗn hợp dung dịch",
+          "lập phương trình bậc nhất một ẩn",
+          "tính nồng độ phần trăm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -4232,8 +4370,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "lập hệ phương trình",
+          "hệ phương trình bậc nhất hai ẩn",
+          "giải bài toán bằng cách lập hệ phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -4403,8 +4546,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "lập hệ phương trình bậc nhất hai ẩn",
+          "giải hệ phương trình bằng phương pháp thế",
+          "giải bài toán bằng cách lập hệ phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -4564,8 +4712,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "lập hệ phương trình từ bài toán thực tế",
+          "giải hệ phương trình bậc nhất hai ẩn",
+          "phương pháp thế"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -4725,8 +4878,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bài toán hoà vốn",
+          "tính lợi nhuận",
+          "lập phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -4866,8 +5024,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "lập hệ phương trình bậc nhất hai ẩn",
+          "giải bài toán bằng cách lập hệ phương trình",
+          "chuyển dữ liệu thực tế thành phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -5008,8 +5171,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải bài toán bằng cách lập hệ phương trình",
+          "Hệ phương trình bậc nhất hai ẩn",
+          "Phương pháp cộng đại số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -5149,8 +5317,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "lập hệ phương trình bậc nhất hai ẩn",
+          "giải hệ phương trình bằng phương pháp cộng đại số",
+          "giải bài toán bằng cách lập hệ phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -5300,8 +5473,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải bài toán bằng cách lập hệ phương trình",
+          "Vận tốc, quãng đường, thời gian",
+          "Phương pháp cộng đại số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -5476,8 +5654,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bài toán chuyển động có gió",
+          "lập hệ phương trình",
+          "giải hệ phương trình bậc nhất hai ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -5652,8 +5835,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "cấp số cộng",
+          "tính tổng cấp số cộng",
+          "lập bảng tính toán"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -5823,8 +6011,13 @@
         "lessonName": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "dãy số",
+          "phương pháp liệt kê",
+          "tính tổng dãy số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -5994,8 +6187,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hệ phương trình bậc nhất hai ẩn",
+          "Điều kiện hệ phương trình bậc nhất hai ẩn",
+          "Nhận dạng hệ phương trình bậc nhất hai ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -6150,8 +6348,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hệ phương trình bậc nhất hai ẩn",
+          "phương pháp thế",
+          "giải hệ phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -6316,8 +6519,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "phương trình đường thẳng bậc nhất hai ẩn",
+          "kiểm tra điểm thuộc đường thẳng",
+          "thay tọa độ vào phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -6467,8 +6675,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hàm số bậc nhất",
+          "hệ phương trình bậc nhất hai ẩn",
+          "phương pháp cộng đại số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -6628,8 +6841,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hệ phương trình bậc nhất hai ẩn",
+          "Điều kiện có nghiệm duy nhất",
+          "Tỉ số các hệ số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -6789,8 +7007,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hệ phương trình bậc nhất hai ẩn",
+          "Vị trí tương đối của hai đường thẳng",
+          "Giải hệ phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -6940,14 +7163,19 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "nghiệm của hệ phương trình",
+          "phương pháp thế",
+          "hệ phương trình bậc nhất hai ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
           "id": "29d2a4d7-52af-4294-8791-a2be29ea0f20",
           "type": "text",
-          "text": "Hệ phương trình $$\\begin{cases} 3x - ay = b \\ ax + by = 3 \\end{cases}$$ có nghiệm là $(2; -3)$ khi"
+          "text": "Hệ phương trình $$\\begin{cases} 3x - ay = b \\\\ ax + by = 3 \\end{cases}$$ có nghiệm là $(2; -3)$ khi"
         }
       ],
       "stem": [
@@ -7101,8 +7329,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hệ phương trình bậc nhất hai ẩn",
+          "Điều kiện vô số nghiệm",
+          "Tỉ số các hệ số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -7267,8 +7500,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "nghiệm của phương trình bậc nhất hai ẩn",
+          "hệ phương trình bậc nhất hai ẩn",
+          "phương pháp cộng đại số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -7423,8 +7661,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "nghiệm của phương trình bậc nhất hai ẩn",
+          "hệ phương trình bậc nhất hai ẩn",
+          "phương pháp cộng đại số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -7579,8 +7822,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hệ phương trình bậc nhất hai ẩn",
+          "phương pháp cộng đại số",
+          "vô số nghiệm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -7740,14 +7988,19 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hệ phương trình bậc nhất hai ẩn",
+          "Phương pháp thế",
+          "Thay tham số vào hệ phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
           "id": "e7972ba5-61d3-4aae-9168-3b9306afadf7",
           "type": "text",
-          "text": "Cho hệ phương trình $\\begin{cases} mx + 9y = m + 3 \\ x + my = 2 \\textend{cases}$"
+          "text": "Cho hệ phương trình $\\begin{cases} mx + 9y = m + 3 \\\\ x + my = 2 \\end{cases}$"
         }
       ],
       "stem": [
@@ -7911,14 +8164,19 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Thay tham số vào hệ phương trình",
+          "Xét số nghiệm của hệ phương trình",
+          "Điều kiện vô nghiệm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
           "id": "e7972ba5-61d3-4aae-9168-3b9306afadf7",
           "type": "text",
-          "text": "Cho hệ phương trình $\\begin{cases} mx + 9y = m + 3 \\ x + my = 2 \\textend{cases}$"
+          "text": "Cho hệ phương trình $\\begin{cases} mx + 9y = m + 3 \\\\ x + my = 2 \\end{cases}$"
         }
       ],
       "stem": [
@@ -8082,14 +8340,19 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hệ phương trình bậc nhất hai ẩn",
+          "vô số nghiệm của hệ phương trình",
+          "thay tham số vào hệ phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
           "id": "e7972ba5-61d3-4aae-9168-3b9306afadf7",
           "type": "text",
-          "text": "Cho hệ phương trình $\\begin{cases} mx + 9y = m + 3 \\ x + my = 2 \\textend{cases}$"
+          "text": "Cho hệ phương trình $\\begin{cases} mx + 9y = m + 3 \\\\ x + my = 2 \\end{cases}$"
         }
       ],
       "stem": [
@@ -8253,8 +8516,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hệ phương trình bậc nhất hai ẩn",
+          "phương pháp cộng đại số",
+          "điều kiện đồng quy của ba đường thẳng"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -8394,8 +8662,12 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải phương trình bậc nhất một ẩn",
+          "Bài toán hòa vốn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -8540,8 +8812,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải phương trình bậc nhất một ẩn",
+          "Ứng dụng phương trình vào thực tế",
+          "Điểm hòa vốn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -8686,8 +8963,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bài toán có lời văn",
+          "phương pháp giả thiết tạm",
+          "hệ phương trình bậc nhất hai ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -8877,8 +9159,12 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bài toán tìm hai số",
+          "phương pháp giả thiết tạm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -9058,8 +9344,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "xây dựng hệ phương trình từ bài toán thực tế",
+          "giải hệ phương trình bậc nhất hai ẩn",
+          "phương pháp thế"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -9194,8 +9485,13 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "lập hệ phương trình bậc nhất hai ẩn",
+          "giải hệ phương trình bằng phương pháp thế",
+          "Giải bài toán bằng cách lập hệ phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -9330,8 +9626,12 @@
         "lessonName": "Ôn tập chương I",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hệ phương trình bậc nhất hai ẩn",
+          "giải bài toán bằng cách lập hệ phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -9471,8 +9771,13 @@
         "lessonName": "Bài 4. Phương trình quy về phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "phương trình bậc hai một ẩn",
+          "đặt nhân tử chung",
+          "giải phương trình tích"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -9617,8 +9922,13 @@
         "lessonName": "Bài 4. Phương trình quy về phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải phương trình bậc hai một ẩn",
+          "Công thức nghiệm phương trình bậc hai",
+          "Biến đổi phương trình về dạng chuẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -9803,8 +10113,13 @@
         "lessonName": "Bài 4. Phương trình quy về phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải phương trình bậc hai một ẩn",
+          "Phân tích đa thức thành nhân tử",
+          "Quy tắc tích bằng 0"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -9944,8 +10259,13 @@
         "lessonName": "Bài 4. Phương trình quy về phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "phương trình chứa ẩn ở mẫu",
+          "quy đồng mẫu thức",
+          "kiểm tra điều kiện xác định"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -10090,8 +10410,13 @@
         "lessonName": "Bài 4. Phương trình quy về phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải phương trình chứa ẩn ở mẫu",
+          "Phương trình bậc nhất một ẩn",
+          "Điều kiện xác định"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -10261,8 +10586,13 @@
         "lessonName": "Bài 4. Phương trình quy về phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải phương trình bậc hai một ẩn",
+          "Thay số vào công thức",
+          "Làm tròn số thập phân"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -10422,8 +10752,13 @@
         "lessonName": "Bài 5. Bất đẳng thức và tính chất",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất đẳng thức",
+          "bất đẳng thức kép",
+          "biểu diễn điều kiện bằng bất đẳng thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -10558,8 +10893,13 @@
         "lessonName": "Bài 5. Bất đẳng thức và tính chất",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất đẳng thức",
+          "chuyển điều kiện thực tế sang bất đẳng thức",
+          "dấu $\\ge$"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -10704,8 +11044,13 @@
         "lessonName": "Bài 5. Bất đẳng thức và tính chất",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất đẳng thức",
+          "ký hiệu bất đẳng thức",
+          "mô hình hóa bất đẳng thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -10850,8 +11195,13 @@
         "lessonName": "Bài 5. Bất đẳng thức và tính chất",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất đẳng thức",
+          "biểu diễn bất đẳng thức từ tình huống thực tế",
+          "ký hiệu lớn hơn hoặc bằng"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -10996,8 +11346,13 @@
         "lessonName": "Bài 5. Bất đẳng thức và tính chất",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất đẳng thức",
+          "chuyển ngữ tình huống thực tế",
+          "ký hiệu bất đẳng thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -11142,8 +11497,13 @@
         "lessonName": "Bài 5. Bất đẳng thức và tính chất",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tách phần nguyên và phần phân số",
+          "so sánh số thực",
+          "tính chất bất đẳng thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -11288,8 +11648,13 @@
         "lessonName": "Bài 5. Bất đẳng thức và tính chất",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "so sánh hai biểu thức",
+          "tính chất bất đẳng thức",
+          "phương pháp tính hiệu"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -11439,8 +11804,13 @@
         "lessonName": "Bài 5. Bất đẳng thức và tính chất",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "So sánh hai biểu thức",
+          "Xét dấu biểu thức",
+          "Phân tích đa thức thành nhân tử"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -11590,8 +11960,13 @@
         "lessonName": "Bài 5. Bất đẳng thức và tính chất",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính chất bất đẳng thức",
+          "nhân hai vế với số dương",
+          "chứng minh bất đẳng thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -11736,8 +12111,13 @@
         "lessonName": "Bài 5. Bất đẳng thức và tính chất",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính chất bất đẳng thức",
+          "chứng minh bất đẳng thức",
+          "phân tích đa thức thành nhân tử"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -11892,8 +12272,13 @@
         "lessonName": "Bài 6. Bất phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất phương trình bậc nhất một ẩn",
+          "quy tắc chuyển vế",
+          "quy tắc nhân/chia với số âm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -12038,8 +12423,13 @@
         "lessonName": "Bài 6. Bất phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Bất phương trình bậc nhất một ẩn",
+          "Quy tắc chuyển vế",
+          "Quy tắc nhân với số âm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -12174,8 +12564,13 @@
         "lessonName": "Bài 6. Bất phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải bất phương trình bậc nhất một ẩn",
+          "Nhân đa thức với đa thức",
+          "Quy tắc đổi chiều bất phương trình khi nhân/chia với số âm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -12311,8 +12706,13 @@
         "lessonName": "Bài 6. Bất phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất phương trình bậc nhất một ẩn",
+          "mô hình hóa bài toán thực tế",
+          "giải bất phương trình bậc nhất một ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -12335,7 +12735,7 @@
             {
               "id": "mcq_000081_option_a_text",
               "type": "text",
-              "text": "blank_inequality_piano = $x + 260 \\le 710$; piano_elevator_inequality = 450"
+              "text": "$x + 260 \\le 710; x \\le 450$"
             }
           ]
         },
@@ -12345,7 +12745,7 @@
             {
               "id": "mcq_000081_option_b_text",
               "type": "text",
-              "text": "blank_inequality_piano = $x + 261 \\le 710$; piano_elevator_inequality = 450"
+              "text": "$x + 261 \\le 710; x \\le 450$"
             }
           ]
         },
@@ -12355,7 +12755,7 @@
             {
               "id": "mcq_000081_option_c_text",
               "type": "text",
-              "text": "blank_inequality_piano = $x + 259 \\le 710$; piano_elevator_inequality = 450"
+              "text": "$x + 259 \\le 710; x \\le 450$"
             }
           ]
         },
@@ -12365,7 +12765,7 @@
             {
               "id": "mcq_000081_option_d_text",
               "type": "text",
-              "text": "blank_inequality_piano = $x + -260 \\le 710$; piano_elevator_inequality = 450"
+              "text": "$x + -260 \\le 710; x \\le 450$"
             }
           ]
         }
@@ -12457,8 +12857,13 @@
         "lessonName": "Bài 6. Bất phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất phương trình bậc nhất một ẩn",
+          "giải bất phương trình",
+          "làm tròn xuống số nguyên"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -12593,8 +12998,13 @@
         "lessonName": "Bài 6. Bất phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất phương trình bậc nhất một ẩn",
+          "mô hình hóa bài toán bằng bất phương trình",
+          "dấu so sánh bất đẳng thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -12744,8 +13154,12 @@
         "lessonName": "Bài 6. Bất phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất phương trình bậc nhất một ẩn",
+          "giải bất phương trình bậc nhất một ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -12895,8 +13309,13 @@
         "lessonName": "Bài 6. Bất phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất phương trình bậc nhất một ẩn",
+          "dịch văn bản thành bất phương trình",
+          "dấu bất đẳng thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -13046,8 +13465,13 @@
         "lessonName": "Bài 6. Bất phương trình bậc nhất một ẩn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải bất phương trình bậc nhất một ẩn",
+          "Mô hình hóa bài toán hình học",
+          "Quy tắc chuyển vế"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -13197,8 +13621,13 @@
         "lessonName": "Ôn tập chương II",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "bất phương trình bậc nhất một ẩn",
+          "quy tắc chuyển vế",
+          "quy tắc nhân với số âm"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -13338,8 +13767,13 @@
         "lessonName": "Ôn tập chương II",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Điều kiện xác định của phương trình",
+          "Phương trình chứa ẩn ở mẫu",
+          "Mẫu thức khác 0"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -13484,8 +13918,13 @@
         "lessonName": "Ôn tập chương II",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải phương trình bậc nhất một ẩn",
+          "Giải bất phương trình bậc nhất một ẩn",
+          "Giải bất phương trình chứa tham số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -13625,8 +14064,13 @@
         "lessonName": "Ôn tập chương II",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Giải bất phương trình bậc nhất một ẩn",
+          "Quy tắc chuyển vế",
+          "Tập nghiệm của bất phương trình"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -13756,8 +14200,13 @@
         "lessonName": "Ôn tập chương II",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính chất bất đẳng thức",
+          "phép cộng hai vế bất đẳng thức",
+          "phép nhân hai vế bất đẳng thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -13912,8 +14361,13 @@
         "lessonName": "Bài 7. Căn bậc hai và căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "căn bậc hai",
+          "làm tròn số",
+          "giá trị gần đúng"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -14053,8 +14507,13 @@
         "lessonName": "Bài 7. Căn bậc hai và căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính chất căn bậc hai",
+          "rút gọn biểu thức chứa căn thức bậc hai",
+          "tính giá trị biểu thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -14184,8 +14643,13 @@
         "lessonName": "Bài 7. Căn bậc hai và căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hằng đẳng thức hiệu hai bình phương",
+          "Tính chất căn bậc hai",
+          "Rút gọn biểu thức chứa căn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -14340,8 +14804,13 @@
         "lessonName": "Bài 7. Căn bậc hai và căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "phương trình bậc hai một ẩn",
+          "tính biệt thức $\\Delta = b^2 - 4ac$",
+          "căn bậc hai"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -14501,8 +14970,13 @@
         "lessonName": "Bài 7. Căn bậc hai và căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "xác định hệ số phương trình bậc hai",
+          "tính biệt thức delta",
+          "căn bậc hai số học"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -14662,8 +15136,13 @@
         "lessonName": "Bài 7. Căn bậc hai và căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Hệ số phương trình bậc hai",
+          "Biểu thức $b^2 - 4ac$",
+          "Căn bậc hai"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -14823,8 +15302,13 @@
         "lessonName": "Bài 7. Căn bậc hai và căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "rút gọn biểu thức chứa căn thức bậc hai",
+          "tính chất $\\sqrt{A^2} = |A|$",
+          "tính chất $\\sqrt{A^2} = A$ khi $A \\ge 0$"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -14944,8 +15428,13 @@
         "lessonName": "Bài 7. Căn bậc hai và căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "rút gọn biểu thức chứa căn bậc hai",
+          "quy tắc $\\sqrt{A^2} = |A|$",
+          "xác định dấu biểu thức đại số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -15095,8 +15584,13 @@
         "lessonName": "Bài 7. Căn bậc hai và căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Rút gọn biểu thức chứa căn bậc hai",
+          "Hằng đẳng thức $\\sqrt{A^2} = |A|$",
+          "Hằng đẳng thức $(A-B)^2$"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -15251,8 +15745,13 @@
         "lessonName": "Bài 7. Căn bậc hai và căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Căn thức bậc hai",
+          "Hằng đẳng thức",
+          "Tính giá trị biểu thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -15407,8 +15906,13 @@
         "lessonName": "Bài 8. Khai căn bậc hai với phép nhân và phép chia",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "quy tắc nhân căn thức bậc hai",
+          "tính chất đơn điệu của căn thức bậc hai",
+          "so sánh các căn thức bậc hai"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -15573,8 +16077,13 @@
         "lessonName": "Bài 8. Khai căn bậc hai với phép nhân và phép chia",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính chất chia căn thức bậc hai",
+          "so sánh căn thức bậc hai",
+          "biến đổi căn thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -15729,8 +16238,13 @@
         "lessonName": "Bài 8. Khai căn bậc hai với phép nhân và phép chia",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Quy tắc chia hai căn thức bậc hai",
+          "Phép chia phân số",
+          "Tính giá trị căn thức bậc hai"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -15870,8 +16384,13 @@
         "lessonName": "Bài 8. Khai căn bậc hai với phép nhân và phép chia",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "quy tắc nhân căn thức bậc hai",
+          "hằng đẳng thức hiệu hai bình phương",
+          "tính giá trị biểu thức chứa căn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -16016,8 +16535,13 @@
         "lessonName": "Bài 8. Khai căn bậc hai với phép nhân và phép chia",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "quy tắc nhân căn thức bậc hai",
+          "hằng đẳng thức hiệu hai bình phương",
+          "rút gọn biểu thức chứa căn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -16177,8 +16701,13 @@
         "lessonName": "Bài 8. Khai căn bậc hai với phép nhân và phép chia",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "rút gọn biểu thức chứa căn thức bậc hai",
+          "phân tích đa thức thành nhân tử",
+          "rút gọn phân thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -16338,8 +16867,13 @@
         "lessonName": "Bài 8. Khai căn bậc hai với phép nhân và phép chia",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "so sánh căn thức bậc hai",
+          "tính đơn điệu của căn bậc hai",
+          "bất đẳng thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -16499,8 +17033,13 @@
         "lessonName": "Bài 8. Khai căn bậc hai với phép nhân và phép chia",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "căn thức bậc hai",
+          "biến đổi biểu thức chứa căn",
+          "phân tích đa thức thành nhân tử"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.55
       },
       "instruction": [
         {
@@ -16675,8 +17214,13 @@
         "lessonName": "Bài 9. Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "rút gọn biểu thức chứa căn thức bậc hai",
+          "cộng, trừ căn thức bậc hai",
+          "tính bình phương của một tích"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -16816,8 +17360,13 @@
         "lessonName": "Bài 9. Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Rút gọn căn thức bậc hai",
+          "Khử mẫu biểu thức chứa căn",
+          "Cộng, trừ căn thức bậc hai"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -16977,8 +17526,13 @@
         "lessonName": "Bài 9. Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Biểu diễn biểu thức dưới dạng bình phương",
+          "Khử mẫu biểu thức chứa căn",
+          "Hằng đẳng thức $\\sqrt{A^2} = |A|$"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.55
       },
       "instruction": [
         {
@@ -17138,8 +17692,13 @@
         "lessonName": "Bài 9. Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Rút gọn biểu thức chứa căn thức bậc hai",
+          "Quy đồng mẫu thức",
+          "Nhân liên hợp"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -17299,8 +17858,13 @@
         "lessonName": "Bài 9. Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "trục căn thức ở mẫu",
+          "biểu thức liên hợp",
+          "hằng đẳng thức $(a-b)(a+b)=a^2-b^2$"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -17450,8 +18014,13 @@
         "lessonName": "Bài 9. Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "rút gọn biểu thức chứa căn",
+          "khử mẫu biểu thức chứa căn",
+          "tính giá trị biểu thức đại số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.55
       },
       "instruction": [
         {
@@ -17611,8 +18180,13 @@
         "lessonName": "Bài 10. Căn bậc ba và căn thức bậc ba",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "căn bậc ba của một số thực",
+          "tính giá trị biểu thức chứa căn bậc ba",
+          "phép toán với căn thức bậc ba"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -17772,8 +18346,13 @@
         "lessonName": "Bài 10. Căn bậc ba và căn thức bậc ba",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Căn bậc ba",
+          "Tính giá trị biểu thức",
+          "Căn thức bậc ba"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -17928,8 +18507,13 @@
         "lessonName": "Bài 10. Căn bậc ba và căn thức bậc ba",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "căn bậc ba",
+          "giải phương trình chứa căn",
+          "phương trình bậc nhất một ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -18069,8 +18653,13 @@
         "lessonName": "Bài 10. Căn bậc ba và căn thức bậc ba",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "căn bậc ba của một số",
+          "so sánh các căn thức bậc ba",
+          "tính chất căn thức bậc ba"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -18210,8 +18799,13 @@
         "lessonName": "Bài 10. Căn bậc ba và căn thức bậc ba",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Căn bậc ba của số thực",
+          "Tính chất đồng biến của căn bậc ba",
+          "So sánh căn thức bậc ba"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -18351,8 +18945,13 @@
         "lessonName": "Bài 10. Căn bậc ba và căn thức bậc ba",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "căn bậc ba",
+          "diện tích hình lập phương",
+          "đổi đơn vị thể tích"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -18507,8 +19106,13 @@
         "lessonName": "Bài 10. Căn bậc ba và căn thức bậc ba",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "căn bậc ba",
+          "tính giá trị biểu thức",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -18648,8 +19252,13 @@
         "lessonName": "Bài 10. Căn bậc ba và căn thức bậc ba",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "đổi đơn vị đo",
+          "căn bậc ba",
+          "tính giá trị biểu thức"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -18804,8 +19413,13 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "căn bậc hai của một số",
+          "căn bậc ba của một số",
+          "tính chất căn bậc hai"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -18965,8 +19579,13 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "căn bậc hai của số thực",
+          "căn bậc ba của số thực",
+          "căn bậc hai số học"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -19111,8 +19730,13 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "căn bậc hai",
+          "tính chất căn bậc hai",
+          "dịch chuyển dấu phẩy thập phân"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -19252,8 +19876,13 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Căn bậc hai số học",
+          "Tính chất $\\sqrt{A^2} = |A|$",
+          "Quy tắc dấu và phép bình phương"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -19418,8 +20047,13 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "công thức thể tích khối lập phương",
+          "căn bậc ba",
+          "đổi đơn vị đo độ dài"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -19559,8 +20193,13 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính chất nhân căn thức bậc hai",
+          "hằng đẳng thức hiệu hai bình phương",
+          "tính giá trị biểu thức chứa căn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -19700,8 +20339,13 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "so sánh các số",
+          "căn thức bậc hai",
+          "phương pháp bình phương hai vế"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.55
       },
       "instruction": [
         {
@@ -19876,8 +20520,13 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính chất căn thức bậc hai",
+          "hằng đẳng thức hiệu hai bình phương",
+          "rút gọn biểu thức chứa căn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -20032,8 +20681,13 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Biến đổi căn thức bậc hai",
+          "Bình phương một tổng",
+          "Hằng đẳng thức hiệu hai bình phương"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -20188,8 +20842,13 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Căn thức bậc hai",
+          "Tính chất $\\sqrt{A^2} = |A|$",
+          "Rút gọn biểu thức chứa căn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -20334,21 +20993,26 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hằng đẳng thức bình phương của một hiệu",
+          "khai triển biểu thức chứa căn thức bậc hai",
+          "tính chất căn thức bậc hai"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
           "id": "bc72a504-e49c-43a1-ad91-b2b870d727e2",
           "type": "text",
-          "text": "Khai triển $(2 - \\backslash sqrt{3})^2$ và $(2\\backslash sqrt{3} - 3)^2$ thành những biểu thức không còn bình phương."
+          "text": "Khai triển $(2 - \\sqrt{3})^2$ và $(2\\sqrt{3} - 3)^2$ thành những biểu thức không còn bình phương."
         }
       ],
       "stem": [
         {
           "id": "df8ac677-08ff-4130-8871-8ca2944c2a3a",
           "type": "text",
-          "text": "Khai triển biểu thức $(2 - \\backslash sqrt{3})^2$"
+          "text": "Khai triển biểu thức $(2 - \\sqrt{3})^2$"
         }
       ],
       "options": [
@@ -20495,21 +21159,26 @@
         "lessonName": "Ôn tập chương III",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hằng đẳng thức bình phương của một hiệu",
+          "khai triển biểu thức chứa căn",
+          "rút gọn biểu thức chứa căn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
           "id": "bc72a504-e49c-43a1-ad91-b2b870d727e2",
           "type": "text",
-          "text": "Khai triển $(2 - \\backslash sqrt{3})^2$ và $(2\\backslash sqrt{3} - 3)^2$ thành những biểu thức không còn bình phương."
+          "text": "Khai triển $(2 - \\sqrt{3})^2$ và $(2\\sqrt{3} - 3)^2$ thành những biểu thức không còn bình phương."
         }
       ],
       "stem": [
         {
           "id": "4d5f16ef-92ed-4e7d-a4bb-5c1520007fb4",
           "type": "text",
-          "text": "Khai triển biểu thức $(2\\backslash sqrt{3} - 3)^2$"
+          "text": "Khai triển biểu thức $(2\\sqrt{3} - 3)^2$"
         }
       ],
       "options": [
@@ -20656,8 +21325,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "định lý Pi-ta-go",
+          "tam giác vuông",
+          "tính độ dài cạnh huyền"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -20797,8 +21471,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Định lý Pi-ta-go",
+          "Tỉ số lượng giác của góc nhọn",
+          "Định nghĩa sin trong tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -20938,8 +21617,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "định lý Py-ta-go",
+          "tỷ số lượng giác của góc nhọn",
+          "tính cosin trong tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -21079,8 +21763,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "công thức cộng lượng giác",
+          "giá trị lượng giác góc 45 độ",
+          "rút gọn biểu thức lượng giác"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -21240,8 +21929,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "công thức cộng sin và cos",
+          "giá trị lượng giác của góc 45 độ",
+          "tính chất góc phụ nhau"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -21401,21 +22095,26 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "tính giá trị lượng giác bằng máy tính",
+          "quy tắc làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
           "id": "8196c3ad-9692-4db4-9447-8330d67b09b4",
           "type": "text",
-          "text": "Khi góc $\\alpha$ lần lượt bằng $10^\\frac{o}$, $20^\\frac{o}$, $30^\\frac{o}$, $40^\\frac{o}$, hãy dùng MTCT tính $\\sin \\alpha$ trong mỗi trường hợp (làm tròn đến chữ số thập phân thứ ba)."
+          "text": "Khi góc $\\alpha$ lần lượt bằng $10^\\circ$, $20^\\circ$, $30^\\circ$, $40^\\circ$, hãy dùng MTCT tính $\\sin \\alpha$ trong mỗi trường hợp (làm tròn đến chữ số thập phân thứ ba)."
         }
       ],
       "stem": [
         {
           "id": "2bbb76cd-2574-4cd9-82d4-f37304a2bc38",
           "type": "text",
-          "text": "Tính giá trị $\\sin 10^\\frac{o}$ làm tròn đến chữ số thập phân thứ ba"
+          "text": "Tính giá trị $\\sin 10^\\circ$ làm tròn đến chữ số thập phân thứ ba"
         }
       ],
       "options": [
@@ -21547,21 +22246,26 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "tính giá trị lượng giác bằng máy tính",
+          "làm tròn số thập phân"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
           "id": "8196c3ad-9692-4db4-9447-8330d67b09b4",
           "type": "text",
-          "text": "Khi góc $\\alpha$ lần lượt bằng $10^\\frac{o}$, $20^\\frac{o}$, $30^\\frac{o}$, $40^\\frac{o}$, hãy dùng MTCT tính $\\sin \\alpha$ trong mỗi trường hợp (làm tròn đến chữ số thập phân thứ ba)."
+          "text": "Khi góc $\\alpha$ lần lượt bằng $10^\\circ$, $20^\\circ$, $30^\\circ$, $40^\\circ$, hãy dùng MTCT tính $\\sin \\alpha$ trong mỗi trường hợp (làm tròn đến chữ số thập phân thứ ba)."
         }
       ],
       "stem": [
         {
           "id": "dbf2eace-2ff9-4842-a113-cd2e835ac9e8",
           "type": "text",
-          "text": "Tính giá trị $\\sin 20^\\frac{o}$ làm tròn đến chữ số thập phân thứ ba"
+          "text": "Tính giá trị $\\sin 20^\\circ$ làm tròn đến chữ số thập phân thứ ba"
         }
       ],
       "options": [
@@ -21693,21 +22397,26 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính giá trị lượng giác bằng máy tính",
+          "làm tròn số",
+          "góc đặc biệt"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.1
       },
       "instruction": [
         {
           "id": "8196c3ad-9692-4db4-9447-8330d67b09b4",
           "type": "text",
-          "text": "Khi góc $\\alpha$ lần lượt bằng $10^\\frac{o}$, $20^\\frac{o}$, $30^\\frac{o}$, $40^\\frac{o}$, hãy dùng MTCT tính $\\sin \\alpha$ trong mỗi trường hợp (làm tròn đến chữ số thập phân thứ ba)."
+          "text": "Khi góc $\\alpha$ lần lượt bằng $10^\\circ$, $20^\\circ$, $30^\\circ$, $40^\\circ$, hãy dùng MTCT tính $\\sin \\alpha$ trong mỗi trường hợp (làm tròn đến chữ số thập phân thứ ba)."
         }
       ],
       "stem": [
         {
           "id": "ea2049c1-aa41-439a-ab12-76ec9c642e38",
           "type": "text",
-          "text": "Tính giá trị $\\sin 30^\\frac{o}$ làm tròn đến chữ số thập phân thứ ba"
+          "text": "Tính giá trị $\\sin 30^\\circ$ làm tròn đến chữ số thập phân thứ ba"
         }
       ],
       "options": [
@@ -21839,21 +22548,26 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "sử dụng máy tính cầm tay",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
           "id": "8196c3ad-9692-4db4-9447-8330d67b09b4",
           "type": "text",
-          "text": "Khi góc $\\alpha$ lần lượt bằng $10^\\frac{o}$, $20^\\frac{o}$, $30^\\frac{o}$, $40^\\frac{o}$, hãy dùng MTCT tính $\\sin \\alpha$ trong mỗi trường hợp (làm tròn đến chữ số thập phân thứ ba)."
+          "text": "Khi góc $\\alpha$ lần lượt bằng $10^\\circ$, $20^\\circ$, $30^\\circ$, $40^\\circ$, hãy dùng MTCT tính $\\sin \\alpha$ trong mỗi trường hợp (làm tròn đến chữ số thập phân thứ ba)."
         }
       ],
       "stem": [
         {
           "id": "91dc14a7-3ef5-4fb3-8f17-48c9bd3a1a5d",
           "type": "text",
-          "text": "Tính giá trị $\\sin 40^\\frac{o}$ làm tròn đến chữ số thập phân thứ ba"
+          "text": "Tính giá trị $\\sin 40^\\circ$ làm tròn đến chữ số thập phân thứ ba"
         }
       ],
       "options": [
@@ -21985,8 +22699,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "hàm số lượng giác ngược",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -22151,8 +22870,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính góc từ giá trị lượng giác",
+          "sử dụng máy tính cầm tay",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -22317,8 +23041,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính góc từ tỉ số lượng giác",
+          "hàm số lượng giác ngược (arcsin)",
+          "sử dụng máy tính cầm tay"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.1
       },
       "instruction": [
         {
@@ -22483,8 +23212,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính góc từ tỉ số lượng giác",
+          "sử dụng máy tính cầm tay",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -22649,8 +23383,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "hàm cosin ngược (arccos)",
+          "sử dụng máy tính cầm tay"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -22825,8 +23564,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính góc từ giá trị lượng giác",
+          "sử dụng máy tính cầm tay",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -22991,8 +23735,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "hàm cosin nghịch đảo",
+          "sử dụng máy tính cầm tay"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -23157,8 +23906,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hàm cosin ngược",
+          "sử dụng máy tính cầm tay",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -23323,8 +24077,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "tính chất $\\sin(90^\\circ - \\alpha) = \\cos \\alpha$",
+          "hằng đẳng thức lượng giác $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -23464,8 +24223,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Định lý Py-ta-go",
+          "Tỷ số lượng giác của góc nhọn",
+          "Mối quan hệ giữa góc và cạnh trong tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -23630,8 +24394,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "tính chất tam giác vuông có góc 30 độ",
+          "khoảng cách từ một điểm đến một đường thẳng"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -23801,8 +24570,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác sin của góc nhọn",
+          "sử dụng máy tính tìm góc",
+          "mô hình tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -23942,8 +24716,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác sin của góc nhọn",
+          "tính số đo góc từ tỉ số lượng giác",
+          "tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -24088,8 +24867,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "góc lượng giác đặc biệt",
+          "tính chất tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -24234,8 +25018,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "sử dụng máy tính cầm tay",
+          "làm tròn số thập phân"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -24400,8 +25189,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Tỷ số lượng giác của góc nhọn",
+          "Mối liên hệ giữa tang và côtang",
+          "Sử dụng máy tính cầm tay"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -24566,8 +25360,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "sử dụng máy tính cầm tay",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -24732,8 +25531,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "mối liên hệ giữa tang và côtang",
+          "sử dụng máy tính cầm tay tính giá trị lượng giác"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -24908,8 +25712,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "sử dụng máy tính cầm tay",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -25074,8 +25883,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "sử dụng máy tính cầm tay",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -25230,8 +26044,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "sử dụng máy tính cầm tay",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -25396,8 +26215,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "mối quan hệ giữa tang và côtang",
+          "sử dụng máy tính cầm tay"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -25562,8 +26386,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính chất tam giác cân",
+          "đường cao ứng với đáy",
+          "tỷ số lượng giác tang của góc nhọn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -25698,8 +26527,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tính chất đường cao tam giác cân",
+          "tỷ số lượng giác của góc nhọn",
+          "tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -25834,8 +26668,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "định nghĩa tỉ số lượng giác",
+          "chứng minh đẳng thức lượng giác",
+          "hệ thức lượng giác cơ bản"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {
@@ -25990,8 +26829,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "hệ thức lượng giác cơ bản",
+          "chứng minh đẳng thức lượng giác"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -26146,8 +26990,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "định lý Py-ta-go",
+          "tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -26292,8 +27141,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "định lý Py-ta-go",
+          "tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -26438,8 +27292,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỷ số lượng giác của góc nhọn",
+          "tính nghịch biến của hàm cosin",
+          "bất đẳng thức lượng giác"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -26589,8 +27448,13 @@
         "lessonName": "Bài 11. Tỷ số lượng giác của góc nhọn",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "hệ thức lượng giác cơ bản",
+          "tính đơn điệu của tỉ số lượng giác",
+          "so sánh các tỉ số lượng giác"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -26740,8 +27604,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "tam giác vuông",
+          "định nghĩa cosin"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -26881,8 +27750,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "định nghĩa cosin trong tam giác vuông",
+          "xác định cạnh kề và cạnh huyền"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.25
       },
       "instruction": [
         {
@@ -27032,8 +27906,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "hệ thức lượng trong tam giác vuông",
+          "biến đổi đẳng thức đại số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -27173,8 +28052,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "Định lý Sin",
+          "Tỉ số lượng giác của góc nhọn",
+          "Tổng ba góc trong tam giác"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -27334,8 +28218,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "hàm sin",
+          "giải tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -27475,8 +28364,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "hệ thức giữa cạnh và góc trong tam giác vuông",
+          "giải tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.3
       },
       "instruction": [
         {
@@ -27626,8 +28520,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tam giác vuông",
+          "hai góc nhọn phụ nhau",
+          "giải tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.1
       },
       "instruction": [
         {
@@ -27767,8 +28666,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "ứng dụng tỉ số lượng giác",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -27908,8 +28812,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "hệ thức lượng trong tam giác vuông",
+          "giải phương trình bậc nhất một ẩn"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.5
       },
       "instruction": [
         {
@@ -28079,8 +28988,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác sin",
+          "tính cạnh huyền tam giác vuông",
+          "làm tròn số"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.45
       },
       "instruction": [
         {
@@ -28230,8 +29144,13 @@
         "lessonName": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác sin của góc nhọn",
+          "mô hình hóa bài toán thực tế thành tam giác vuông",
+          "tính giá trị lượng giác bằng máy tính"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.35
       },
       "instruction": [
         {
@@ -28376,8 +29295,13 @@
         "lessonName": "Ôn tập chương IV",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "góc phụ nhau",
+          "tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.15
       },
       "instruction": [
         {
@@ -28517,8 +29441,13 @@
         "lessonName": "Ôn tập chương IV",
         "difficulty": "medium",
         "bloom": "remember",
-        "concepts": [],
-        "createdBy": "ai-flow"
+        "concepts": [
+          "tỉ số lượng giác của góc nhọn",
+          "góc phụ nhau",
+          "tam giác vuông"
+        ],
+        "createdBy": "ai-flow",
+        "difficultyScore": 0.2
       },
       "instruction": [
         {

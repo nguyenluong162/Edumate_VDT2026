@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Review and edit MCQ options with qwen3.6-35b.
+"""Enrich MCQ question metadata with qwen3.6-35b.
 
-This script reviews only:
-  - option contents / distractors
-  - answerSpec.expected.correctOptionId
+This script enriches only:
+  - metadata.concepts
 
-It intentionally keeps instruction, stem, hints, solution, metadata, and source
-unchanged.
+It intentionally keeps instruction, stem, options, answerSpec, hints, solution,
+source, ids, and metadata fields other than concepts unchanged.
 
 Usage:
   python3 data/cleaning/edit_mcq.py
@@ -27,16 +26,21 @@ import os
 import re
 import sys
 import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 from typing import Any
 
-import requests
+try:
+    import requests
+except ModuleNotFoundError:
+    requests = None
 
 
 WORK_DIR = Path(__file__).resolve().parent
 DATA_DIR = WORK_DIR.parent
-DEFAULT_INPUT = DATA_DIR / "edumate_v4.mcq.questions.json"
-DEFAULT_OUTPUT = DATA_DIR / "edumate_v4.mcq.questions.reviewed.json"
+DEFAULT_INPUT = DATA_DIR / "edumate_v4.mcq.questions.hints_reviewed.json"
+DEFAULT_OUTPUT = DATA_DIR / "edumate_v4.mcq.questions.hints_reviewed.json"
 DEFAULT_LOG = WORK_DIR / "edit_mcq.review_log.jsonl"
 
 API_URL = os.getenv("EDUMATE_API_URL", "https://llm-playground.gpu.test.edumate.ai.vn/v1/chat/completions")
@@ -45,82 +49,39 @@ MODEL = "qwen3.6-35b"
 
 
 COMMON_PROMPT = """
-Bạn là chuyên gia thẩm định câu hỏi trắc nghiệm Toán.
+Bạn là chuyên gia phân loại câu hỏi trắc nghiệm Toán lớp 9.
 
-Nhiệm vụ duy nhất:
-- Review các lựa chọn A/B/C/D, tức distractors và đáp án đúng.
-- Nếu đáp án đúng đang sai, sửa correctOptionId.
-- Nếu distractor sai vai trò, trùng lặp, quá vô lý, hoặc cũng đúng, hãy sửa text của distractor đó.
-- Nếu lựa chọn đúng có text sai/thiếu, hãy sửa text của lựa chọn đúng.
+Nhiệm vụ:
+- Bổ sung concepts: một list các khái niệm/kỹ năng Toán chính cần dùng để giải bài toán.
 
-Tuyệt đối không review, không sửa, không nhận xét các phần khác:
+Tuyệt đối không review, không sửa, không nhận xét các phần khác ngoài concepts:
 - Không sửa instruction.
 - Không sửa stem.
+- Không sửa options/distractors.
+- Không sửa answerSpec/correctOptionId, kể cả khi em nghĩ đáp án hiện tại sai.
 - Không sửa hints.
 - Không sửa solution.
-- Không sửa metadata/source/id.
+- Không sửa metadata/source/id ngoài metadata.concepts. Giữ nguyên metadata.difficultyScore nếu đang có.
 - Không tạo câu hỏi mới.
 
 Ràng buộc bắt buộc:
-- Giữ đúng 4 options với id A, B, C, D.
-- Chỉ có 1 đáp án đúng duy nhất.
-- correctOptionId phải là một trong A, B, C, D.
-- Các distractors phải hợp lý, liên quan tới lỗi sai thường gặp, và không được đúng.
-- Kiểm tra kỹ các công thức, số liệu, và logic toán học trong text của các distractors.
+- concepts phải là list 2 đến 3 string ngắn gọn bằng tiếng Việt, cụ thể theo bài toán, không quá chung chung.
+- concepts nên nêu kỹ năng/khái niệm như "hệ phương trình bậc nhất hai ẩn", "phương pháp thế", "tỉ số lượng giác của góc nhọn".
 - Giữ LaTeX nếu nội dung cần công thức.
 - Không thêm markdown, không dùng ```json.
 - Chỉ trả về JSON hợp lệ duy nhất theo schema:
 {
-  "options": [
-    {
-      "id": "A",
-      "content": [
-        {
-          "id": "string",
-          "type": "text",
-          "text": "string"
-        }
-      ]
-    },
-    {
-      "id": "B",
-      "content": [
-        {
-          "id": "string",
-          "type": "text",
-          "text": "string"
-        }
-      ]
-    },
-    {
-      "id": "C",
-      "content": [
-        {
-          "id": "string",
-          "type": "text",
-          "text": "string"
-        }
-      ]
-    },
-    {
-      "id": "D",
-      "content": [
-        {
-          "id": "string",
-          "type": "text",
-          "text": "string"
-        }
-      ]
-    }
+  "concepts": [
+    "khái niệm 1",
+    "khái niệm 2"
   ],
-  "correctOptionId": "A",
-  "reviewNote": "Một câu ngắn nói đã sửa gì ở options/answer, hoặc 'Không cần sửa'."
+  "reviewNote": "Một câu ngắn giải thích vì sao chọn concepts."
 }
 """.strip()
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Use qwen3.6-35b to review MCQ options and answers.")
+    parser = argparse.ArgumentParser(description="Use qwen3.6-35b to regenerate MCQ concepts only.")
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--log", type=Path, default=DEFAULT_LOG)
@@ -141,18 +102,21 @@ def compact_question_for_review(question: dict[str, Any]) -> dict[str, Any]:
     return {
         "id": question.get("id"),
         "source": question.get("source"),
+        "metadata": question.get("metadata", {}),
         "instruction": question.get("instruction", []),
         "stem": question.get("stem", []),
         "options": question.get("options", []),
         "correctOptionId": question.get("answerSpec", {}).get("expected", {}).get("correctOptionId"),
+        "hints": question.get("hints", []),
+        "solution": question.get("solution", {}),
     }
 
 
 def build_user_prompt(question: dict[str, Any]) -> str:
     payload = compact_question_for_review(question)
     return (
-        "Hãy review CHỈ options/distractors và correctOptionId của câu MCQ sau.\n"
-        "Không sửa bất cứ trường nào khác ngoài options và correctOptionId.\n\n"
+        "Hãy chỉ tạo lại concepts cho câu MCQ sau.\n"
+        "Không sửa, không trả về options, không sửa correctOptionId, không sửa bất cứ trường nào khác.\n\n"
         f"{json.dumps(payload, ensure_ascii=False, indent=2)}"
     )
 
@@ -170,10 +134,28 @@ def call_qwen(question: dict[str, Any], timeout: int, temperature: float) -> str
             {"role": "user", "content": build_user_prompt(question)},
         ],
     }
-    response = requests.post(API_URL, headers=headers, json=payload, timeout=timeout)
-    response.raise_for_status()
-    data = response.json()
+    data = post_chat_completion(headers, payload, timeout)
     return data["choices"][0]["message"]["content"]
+
+
+def post_chat_completion(headers: dict[str, str], payload: dict[str, Any], timeout: int) -> dict[str, Any]:
+    if requests is not None:
+        response = requests.post(API_URL, headers=headers, json=payload, timeout=timeout)
+        response.raise_for_status()
+        return response.json()
+
+    request = urllib.request.Request(
+        API_URL,
+        data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+        headers=headers,
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        error_body = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"HTTP {exc.code}: {error_body}") from exc
 
 
 def extract_json_object(text: str) -> dict[str, Any]:
@@ -261,58 +243,41 @@ def repair_json_latex_backslashes(text: str) -> str:
     return "".join(repaired)
 
 
-def validate_review(review: dict[str, Any], original_question: dict[str, Any]) -> tuple[list[dict[str, Any]], str, str]:
-    options = review.get("options")
-    correct_option_id = review.get("correctOptionId")
+def validate_review(review: dict[str, Any]) -> tuple[list[str], str]:
+    concepts = review.get("concepts")
     review_note = str(review.get("reviewNote", "")).strip() or "Không có ghi chú."
 
-    if not isinstance(options, list) or len(options) != 4:
-        raise ValueError("Model response must contain exactly 4 options.")
+    if not isinstance(concepts, list) or not 2 <= len(concepts) <= 3:
+        raise ValueError("concepts must be a list containing 2 to 3 items.")
 
-    ids = [option.get("id") for option in options]
-    if ids != ["A", "B", "C", "D"]:
-        raise ValueError(f"Option ids must be exactly ['A', 'B', 'C', 'D'], got {ids}.")
+    normalized_concepts: list[str] = []
+    for concept in concepts:
+        if not isinstance(concept, str) or not concept.strip():
+            raise ValueError("Every concept must be a non-empty string.")
+        normalized_concepts.append(re.sub(r"\s+", " ", concept.strip()))
 
-    if correct_option_id not in ids:
-        raise ValueError(f"correctOptionId must be one of A/B/C/D, got {correct_option_id!r}.")
-
-    normalized_options: list[dict[str, Any]] = []
-    original_options_by_id = {option.get("id"): option for option in original_question.get("options", [])}
-    for option in options:
-        option_id = option["id"]
-        content = option.get("content")
-        if not isinstance(content, list) or not content:
-            raise ValueError(f"Option {option_id} must contain non-empty content array.")
-
-        normalized_content: list[dict[str, Any]] = []
-        for block_index, block in enumerate(content):
-            text = block.get("text")
-            if not isinstance(text, str) or not text.strip():
-                raise ValueError(f"Option {option_id} content block {block_index} has empty text.")
-            original_block = (original_options_by_id.get(option_id, {}).get("content") or [{}])[0]
-            normalized_content.append(
-                {
-                    "id": block.get("id") or original_block.get("id") or f"{original_question['id']}_option_{option_id.lower()}_text",
-                    "type": block.get("type") or "text",
-                    "text": text,
-                }
-            )
-
-        normalized_options.append({"id": option_id, "content": normalized_content})
-
-    return normalized_options, correct_option_id, review_note
+    return normalized_concepts, review_note
 
 
-def apply_review(question: dict[str, Any], options: list[dict[str, Any]], correct_option_id: str) -> dict[str, Any]:
+def apply_review(
+    question: dict[str, Any],
+    concepts: list[str],
+) -> dict[str, Any]:
     updated = copy.deepcopy(question)
-    updated["options"] = options
-    updated.setdefault("answerSpec", {}).setdefault("expected", {})["correctOptionId"] = correct_option_id
+    metadata = updated.setdefault("metadata", {})
+    metadata["concepts"] = concepts
     return updated
 
 
 def write_log(log_path: Path, record: dict[str, Any]) -> None:
     with log_path.open("a", encoding="utf-8") as file:
         file.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+
+def write_output(output_path: Path, data: dict[str, Any]) -> None:
+    with output_path.open("w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=2)
+        file.write("\n")
 
 
 def main() -> int:
@@ -337,15 +302,18 @@ def main() -> int:
 
     for index in range(args.start, end):
         question = reviewed_data["questions"][index]
-        print(f"[{index + 1}/{len(questions)}] Reviewing {question.get('id')}...", flush=True)
+        print(f"[{index + 1}/{len(questions)}] Enriching {question.get('id')}...", flush=True)
         try:
             raw = call_qwen(question, timeout=args.timeout, temperature=args.temperature)
             review = extract_json_object(raw)
-            options, correct_option_id, review_note = validate_review(review, question)
-            old_correct = question.get("answerSpec", {}).get("expected", {}).get("correctOptionId")
-            old_options = question.get("options", [])
-            reviewed_data["questions"][index] = apply_review(question, options, correct_option_id)
-            changed = old_correct != correct_option_id or old_options != options
+            concepts, review_note = validate_review(review)
+            old_metadata = question.get("metadata", {})
+            old_concepts = old_metadata.get("concepts")
+            reviewed_data["questions"][index] = apply_review(
+                question,
+                concepts,
+            )
+            changed = old_concepts != concepts
             write_log(
                 args.log,
                 {
@@ -353,11 +321,13 @@ def main() -> int:
                     "id": question.get("id"),
                     "status": "ok",
                     "changed": changed,
-                    "oldCorrectOptionId": old_correct,
-                    "newCorrectOptionId": correct_option_id,
+                    "oldConcepts": old_concepts,
+                    "newConcepts": concepts,
                     "reviewNote": review_note,
                 },
             )
+            if not args.dry_run:
+                write_output(args.output, reviewed_data)
             processed += 1
         except Exception as exc:
             write_log(
@@ -374,14 +344,12 @@ def main() -> int:
         time.sleep(args.sleep)
 
     if args.dry_run:
-        print(f"Dry run complete. Reviewed {processed} questions. Log: {args.log}")
+        print(f"Dry run complete. Processed {processed} questions. Log: {args.log}")
         return 0
 
-    with args.output.open("w", encoding="utf-8") as file:
-        json.dump(reviewed_data, file, ensure_ascii=False, indent=2)
-        file.write("\n")
+    write_output(args.output, reviewed_data)
 
-    print(f"Done. Reviewed {processed} questions.")
+    print(f"Done. Processed {processed} questions.")
     print(f"Output: {args.output}")
     print(f"Log: {args.log}")
     return 0
